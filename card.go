@@ -14,7 +14,7 @@ const (
 	Refund
 )
 
-// Compile verification of Card interface implementation for the Account struct.
+// Compile-time verification of Card interface implementation for the Account struct.
 var _ Card = (*Account)(nil)
 
 // Account method errors.
