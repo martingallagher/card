@@ -32,8 +32,6 @@ func (a *Account) Statement() (string, error) {
 		return "", err
 	}
 
-	_ = balance
-
 	var (
 		sb   strings.Builder
 		line = strings.Repeat("-", 43)
